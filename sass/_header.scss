@@ -1,0 +1,31 @@
+@import "variables";
+.headerx {
+    background-color: $backgroundHeader;
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: $whiteColor;
+    &-left {
+      font-size:22px;
+      font-weight:500;
+      line-height: 24px;
+    }
+    a {
+      color: $whiteColor;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size:14px;
+      font-weight:500;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      &:hover{
+        color: $colorHover;
+      }
+      .all {
+      }
+      i {
+        padding-left: 5px;
+      }
+    }
+  }
